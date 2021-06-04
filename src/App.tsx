@@ -1,25 +1,27 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import {
+  PageHeader,
+  Page,
+  Bullseye,
+  PageSection,
+  PageSectionVariants,
+} from '@patternfly/react-core';
+import { GithubAltIcon } from '@patternfly/react-icons';
+import SearchBar from './components/SearchBar';
+import SearchResults from './components/SearchResults';
 
 const App: React.FC = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Page header={<PageHeader logo={<GithubAltIcon style={{ width: '2em', height: '2em' }} />} />}>
+      <PageSection variant={PageSectionVariants.light} sticky="top" hasShadowBottom>
+        <Bullseye>
+          <SearchBar />
+        </Bullseye>
+      </PageSection>
+      <PageSection variant={PageSectionVariants.light} isFilled>
+        <SearchResults />
+      </PageSection>
+    </Page>
   );
 };
 
