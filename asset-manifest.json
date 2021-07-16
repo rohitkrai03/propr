@@ -6,14 +6,14 @@
     "runtime-main.js": "/propr/static/js/runtime-main.4cfda55f.js",
     "runtime-main.js.map": "/propr/static/js/runtime-main.4cfda55f.js.map",
     "static/css/2.45dbd065.chunk.css": "/propr/static/css/2.45dbd065.chunk.css",
-    "static/js/2.593cacd3.chunk.js": "/propr/static/js/2.593cacd3.chunk.js",
-    "static/js/2.593cacd3.chunk.js.map": "/propr/static/js/2.593cacd3.chunk.js.map",
+    "static/js/2.a9ddb421.chunk.js": "/propr/static/js/2.a9ddb421.chunk.js",
+    "static/js/2.a9ddb421.chunk.js.map": "/propr/static/js/2.a9ddb421.chunk.js.map",
     "static/js/3.f018c45a.chunk.js": "/propr/static/js/3.f018c45a.chunk.js",
     "static/js/3.f018c45a.chunk.js.map": "/propr/static/js/3.f018c45a.chunk.js.map",
     "index.html": "/propr/index.html",
     "static/css/2.45dbd065.chunk.css.map": "/propr/static/css/2.45dbd065.chunk.css.map",
     "static/css/main.e423287f.chunk.css.map": "/propr/static/css/main.e423287f.chunk.css.map",
-    "static/js/2.593cacd3.chunk.js.LICENSE.txt": "/propr/static/js/2.593cacd3.chunk.js.LICENSE.txt",
+    "static/js/2.a9ddb421.chunk.js.LICENSE.txt": "/propr/static/js/2.a9ddb421.chunk.js.LICENSE.txt",
     "static/media/index.scss": "/propr/static/media/pficon.eae21d83.woff",
     "static/media/background-image.css": "/propr/static/media/pfbg_768@2x.eea28e73.jpg",
     "static/media/about-modal-box.css": "/propr/static/media/pfbg_992@2x.30e8d31f.jpg"
@@ -21,7 +21,7 @@
   "entrypoints": [
     "static/js/runtime-main.4cfda55f.js",
     "static/css/2.45dbd065.chunk.css",
-    "static/js/2.593cacd3.chunk.js",
+    "static/js/2.a9ddb421.chunk.js",
     "static/css/main.e423287f.chunk.css",
     "static/js/main.9ac1edbb.chunk.js"
   ]
