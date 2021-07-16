@@ -9,6 +9,7 @@ import {
 import { GithubAltIcon } from '@patternfly/react-icons';
 import SearchBar from './components/SearchBar';
 import SearchResults from './components/SearchResults';
+import PullRequestList from './components/PullRequestList';
 
 const App: React.FC = () => {
   return (
@@ -20,6 +21,10 @@ const App: React.FC = () => {
       </PageSection>
       <PageSection variant={PageSectionVariants.light} isFilled>
         <SearchResults />
+      </PageSection>
+      <hr></hr>
+      <PageSection variant={PageSectionVariants.light} sticky="top" hasShadowBottom>
+        <PullRequestList />
       </PageSection>
     </Page>
   );
