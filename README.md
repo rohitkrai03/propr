@@ -1,4 +1,4 @@
-# ProPR
+# ProPR [![Build Status](https://img.shields.io/endpoint.svg?url=https%3A%2F%2Factions-badge.atrox.dev%2Frohitkrai03%2Fpropr%2Fbadge%3Fref%3Dmain&style=flat)](https://actions-badge.atrox.dev/rohitkrai03/propr/goto?ref=main)
 A Github PR statistics dashboard.
 ## Available Scripts
 
